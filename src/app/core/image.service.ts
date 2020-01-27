@@ -12,15 +12,15 @@ export class ImageService {
     },
     {
       url:
-        "https://images.unsplash.com/photo-1493102240626-79998c21d133?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2098&q=80"
+        "https://images.unsplash.com/photo-1493102240626-79998c21d133?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=40"
     },
     {
       url:
-        "https://images.unsplash.com/photo-1493873432549-bf8cbeb7d0c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2236&q=80"
+        "https://images.unsplash.com/photo-1493873432549-bf8cbeb7d0c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=40"
     },
     {
       url:
-        "https://images.unsplash.com/photo-1468571452166-b089f160f1c4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2236&q=80"
+        "https://images.unsplash.com/photo-1468571452166-b089f160f1c4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=40"
     },
     {
       url:
