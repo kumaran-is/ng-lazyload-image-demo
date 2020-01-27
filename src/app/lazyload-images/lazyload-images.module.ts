@@ -1,10 +1,9 @@
-import { CommonModule } from "@angular/common";
 import { NgModule } from "@angular/core";
-import { LazyLoadImageModule } from "ng-lazyload-image";
+import { SharedModule } from "./../shared/shared.module";
 import { LazyloadImagesRoutingModule } from "./lazyload-images-routing.module";
 
 @NgModule({
   declarations: [LazyloadImagesRoutingModule.components],
-  imports: [CommonModule, LazyLoadImageModule, LazyloadImagesRoutingModule]
+  imports: [SharedModule, LazyloadImagesRoutingModule]
 })
 export class LazyloadImagesModule {}
