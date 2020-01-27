@@ -9,7 +9,7 @@ import { ImageService } from "./core/image.service";
 })
 export class AppComponent {
   title = "Lazy Load Image Demo";
-  defaultImage = "https://via.placeholder.com/2100x80";
+  defaultImage = "https://via.placeholder.com/500x300";
 
   public images$: Observable<{ url: string }[]>;
 

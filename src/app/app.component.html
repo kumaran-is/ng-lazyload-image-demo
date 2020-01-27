@@ -6,7 +6,7 @@
 
   <div class="container-main">
     <div  *ngFor="let image of images$ | async" >
-      <img height="1400" width="2096" *ngIf="image?.url" [defaultImage]="defaultImage" [lazyLoad]="image?.url">
+      <img height="300" width="500" *ngIf="image?.url" [defaultImage]="defaultImage" [lazyLoad]="image?.url">
     </div>
   </div>
   <router-outlet></router-outlet>
