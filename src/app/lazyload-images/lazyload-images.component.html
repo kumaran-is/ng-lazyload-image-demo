@@ -1,0 +1,9 @@
+<h1>
+  Welcome to {{title}}!
+</h1>
+
+<div class="container-main">
+  <div  *ngFor="let image of images$ | async" >
+    <img height="300" width="500" *ngIf="image?.url" [defaultImage]="defaultImage" [lazyLoad]="image?.url" [errorImage]="errorImage">
+  </div>
+</div>
